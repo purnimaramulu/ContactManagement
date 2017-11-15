@@ -3,7 +3,7 @@
 <body>
 
 
-	<a href="hello">Add Customer</a>
+	<a href="login">Add Customer</a>
 	<hr />
 
 	<h2>All Contacts </h2>
