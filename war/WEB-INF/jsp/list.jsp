@@ -12,6 +12,8 @@
 			<tr>
 				<td>Name</td>
 				<td>Email</td>
+				<td>mobilenumber</td>
+				<td>Adress</td>
 				
 			</tr>
 		</thead>
@@ -24,6 +26,8 @@
 			<tr>
 			  <td><%=e.getProperty("name") %></td>
 			  <td><%=e.getProperty("email") %></td>
+			  <td><%=e.getProperty("mobilenumber") %></td>
+			   <td><%=e.getProperty("Adress") %></td>
 			  <td><a href="update/<%=e.getProperty("name")%>">Update</a>
                              | <a href="delete/<%=e.getProperty("name")%>">Delete</a></td>
 			</tr>
