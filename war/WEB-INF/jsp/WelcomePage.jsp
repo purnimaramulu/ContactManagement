@@ -3,8 +3,9 @@
 <section id="main" data-module="list">
 
 		<div class="container">
-			
-		<div class="contactslist">
+		<table>
+		<td class="contactslist"></td>
+		</table>	
 		</div>
 	</div>
 
@@ -27,9 +28,9 @@ $( document ).ready(function() {
 			for(var i=0; i<jsonData.length; i++){
 							
 				var object = jsonData[i].propertyMap; //You are in the current object
-			     htmlElement += '<div>'		 
-				  +'<div id='+object.name+' class="elements"><h5>'+object.email+'<br>'+object.name+'</h5></input></div>'
-				  
+			     htmlElement += '<table>'		 
+				  +'<td id='+object.name+' class="elements"><h5>'+object.email+'<br>'+object.name+'</h5></input></td>'
+				  '<table>';
                   $('.contactslist').html(htmlElement);
 				}
 		 
